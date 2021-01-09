@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/ezyfoody"
+        android:textSize="16pt"
+        android:background="#BA9F4F"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        />
+    <TextView
+        android:id="@+id/drinksTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#F4F4F4"
+        android:background="#BA9F4F"
+        android:fontFamily="sans-serif-black"
+        android:padding="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textSize="12pt"/>
+
+    <TextView
+        android:id="@+id/Footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-2dp"
+        android:background="#BA9F4F"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/order_item"
+        android:textSize="20sp"
+        android:backgroundTintMode="add"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/Footer"
+        android:layout_marginBottom="30dp"
+        android:onClick="openPayMenu"
+        android:padding="10dp"
+        android:textColor="#F4F4F4"
+        android:background="#BA9F4F"
+        android:fontFamily="sans-serif-black"/>
+
+</RelativeLayout>

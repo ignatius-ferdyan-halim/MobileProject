@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EzyFoody</string>
+    <string name="my_order">My Order</string>
+    <string name="ezyfoody">Binus EzyFoody</string>
+    <string name="snacks">Snacks</string>
+    <string name="foods">Foods</string>
+    <string name="topup">TopUp</string>
+    <string name="drinks">Drinks</string>
+    <string name="total_price_rp_123">Total Price : Rp. 123</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="order_again">Order Again</string>
+    <string name="order_completed">Order Completed\nThank you for your purchase!</string>
+    <string name="order">Order</string>
+    <string name="order_item">Order Item</string>
+    <string name="binus_ezyfoody_drinks">Binus Ezyfoody: Drinks</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".MainActivity"
+    >
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BA9F4F"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/topUpButton"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:text="@string/my_order"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:id="@+id/Header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="@string/ezyfoody"
+        android:textSize="16pt"
+        android:background="#BA9F4F"
+        android:padding="10dp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <TextView
+        android:id="@+id/Footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginBottom="-2dp"
+        android:background="#BA9F4F"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        />
+
+    <Button
+        android:id="@+id/drinkButton"
+        android:background="#BA9F4F"
+        android:textColor="#FFFFFF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Header"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="95dp"
+        android:layout_marginTop="120dp"
+        android:text="@string/drinks"
+        android:onClick="openDrinkMenu"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/buttonSnack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BA9F4F"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/Header"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="95dp"
+        android:text="@string/snacks"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/foodButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BA9F4F"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/drinkButton"
+        android:layout_alignStart="@+id/drinkButton"
+        android:layout_marginTop="70dp"
+        android:text="@string/foods"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        />
+
+    <Button
+        android:id="@+id/topUpButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BA9F4F"
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/buttonSnack"
+        android:layout_alignStart="@+id/buttonSnack"
+        android:layout_marginTop="70dp"
+        android:text="@string/topup"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif-black"
+        />
+
+
+
+
+</RelativeLayout>
